@@ -1,0 +1,27 @@
+{
+    "version"           :   "0.0.1",
+    "license"           :   "AGPL-3.0",
+    "name"              :   "raumduefte24",
+    "marketplaceName"   :   {"de":"raumduefte24","en":"raumduefte24"},
+    "pluginIcon"        :   "icon_plugin_xs.png",
+    "authorIcon"        :   "icon_author_xs.png",
+    "email"             :   "info@plentylions.de",
+    "description"       :   "A raumduefte24 theme for Ceres.",
+    "shortDescription"  :   { "de": "Ein raumduefte24-Theme für Ceres.", "en": "A raumduefte24 theme for Ceres." },
+    "namespace"         :   "raumduefte24",
+    "author"            :   "Plenty Lions GmbH",
+    "keywords"          :   ["plentymarkets", "plugins", "layout", "theme", "ceres"],
+    "price"             :   0,
+    "categories"        :   [3518],
+    "type"              :   "theme",
+    "require"           :   ["Ceres"],
+    "serviceProvider"   :   "raumduefte24\\Providers\\raumduefte24ServiceProvider",
+    "dataProviders"     :
+    [
+        {
+            "key"           :"raumduefte24\\Containers\\raumduefte24Container",
+            "name"          :"Stylesheet",
+            "description"   :"Add changes to the CSS file"
+        }
+    ]
+}
