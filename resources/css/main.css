@@ -21,6 +21,37 @@ body > #vue-app, body > #vue-error {
     background: #fff;
 }
 
+a{
+    color: #1e3464;
+}
+a:focus, a:hover{
+    color: #384E7E;
+}
+.btn-primary{
+    background-color: #1e3464;
+    border-color: #1e3464;
+}
+.btn-primary:hover,
+.btn-primary:focus, .btn-primary.focus,
+.btn-primary:active, .btn-primary.active, .open > .btn-primary.dropdown-toggle,
+.btn-primary:active:hover, .btn-primary.active:hover, .open > .btn-primary.dropdown-toggle:hover, .btn-primary:active:focus, .btn-primary.active:focus, .open > .btn-primary.dropdown-toggle:focus, .btn-primary:active.focus, .btn-primary.active.focus, .open > .btn-primary.dropdown-toggle.focus {
+    background-color: #384E7E;
+    border-color: #384E7E;
+}
+.btn-outline-primary {
+    color: #1e3464 !important;
+    background-image: none;
+    background-color: transparent;
+    border-color: #1e3464;
+}
+.btn-outline-primary:hover,
+.btn-outline-primary:focus, .btn-outline-primary.focus,
+.btn-outline-primary:active, .btn-outline-primary.active, .open > .btn-outline-primary.dropdown-toggle,
+.btn-outline-primary:active:hover, .btn-outline-primary.active:hover, .open > .btn-outline-primary.dropdown-toggle:hover, .btn-outline-primary:active:focus, .btn-outline-primary.active:focus, .open > .btn-outline-primary.dropdown-toggle:focus, .btn-outline-primary:active.focus, .btn-outline-primary.active.focus, .open > .btn-outline-primary.dropdown-toggle.focus {
+    color: #fff !important;
+    background-color: #1e3464;
+}
+
 .notification-wrapper{
     position: fixed;
     right: 0;
